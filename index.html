@@ -28,12 +28,16 @@
         </select>
     </div>
     <div id="day">
-        <input type="number" id="t1Input" min="1" max="31">
-        <input type="number" id="febInput" min="1" max="29">
-        <input type="number" id="t0Input" min="1" max="30">
+        <select id="">
+            <option value="d01">1</option>
+            <option value="d02">2</option>
+            <option value="d03">3</option>
+            <option value="d04">4</option>
+            <option value="d05">5</option>
+        </select>
     </div>
     <div id="year">
-        <select id="birthyear" name="birthyear">
+        <select id="yearInput" name="yearInput">
             <option value="2018">2018</option>
             <option value="2017">2017</option>
             <option value="2016">2016</option>
@@ -128,5 +132,19 @@
             <option value="1927">1927</option>
            </select>
     </div>
+
+
+
+    <select id="ddlViewBy">
+        <option value="1">test1</option>
+        <option value="2" selected="selected">test2</option>
+        <option value="3">test3</option>
+    </select>
+
+
+
+
+
+    <button id ="specialButton" onclick="generalFunction()">ADAM SANDLER</button>
 </body>
 </html>
