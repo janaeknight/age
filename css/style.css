@@ -1,7 +1,12 @@
 html {
-    background-color: salmon;
+    background-image: url("https://i.ibb.co/hVTthWw/15728972969925781523422963190393.png");
+    background-color: darkslateblue;
+    height: 100vh; width: auto;
+    background-position: left; background-size: cover;
+    background-repeat: no-repeat;
 }
 body {
-    width: 99vw; height: auto;
-    padding: 10vw 5vw; margin: 0px auto;
+    display: flex; flex-direction: column;
+    width: 20vw; height: auto; overflow-x:hidden;
+    padding: 10vw 5vw;
 }
