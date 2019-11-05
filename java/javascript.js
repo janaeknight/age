@@ -19,9 +19,11 @@ function generalFunction() {
                 //window.location.replace("xxtraoily.html");
             } else {
                 console.log("User is under 18 ((manual)).");
+                //window.location("https://disneynow.com/shows/mickey-mouse-clubhouse");
             }
     } else if (selYear>2001) {
         console.log("User is under 18 ((manual)).");
+        //window.location("https://disneynow.com/shows/mickey-mouse-clubhouse");
     } else {
         console.log("User is over 18 ((manual)).");
     }
