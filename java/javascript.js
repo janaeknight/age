@@ -9,7 +9,7 @@ function generalFunction() {
 
     console.log("User picked the date: " +selDate, "" +selMonth, "" +selYear, ".");
 
-    if (selYear<=2000) {
+    if (selYear<=2000) { 
         console.log("User is over 18 ((auto)).");
         //window.location.replace("xxtraoily.html");
     } else if (selMonth === "December") {
